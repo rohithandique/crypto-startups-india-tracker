@@ -1,5 +1,5 @@
 ## List of web3 companies in India
-### Sourced from [inc42](https://inc42.com/the-indian-crypto-blockchain-tracker/)
+
 
 |Company Name                                |Website                               |Sector                                           |Headquarters      |Team Size|Founding Year|
 |--------------------------------------------|--------------------------------------|-------------------------------------------------|------------------|---------|-------------|
@@ -153,3 +153,26 @@
 |WebMob Software Solutions Pvt ltd           |http://webmobinfo.ch                  |Software Development, Blockchain                 |Mohali            |5        |2013         |
 |Wolfcone                                    |http://wolfcone.com                   |Crypto News, Blockchain                          |Bengaluru         |19       |2018         |
 |Xoken Labs                                  |https://www.xoken.org                 |Blockchain                                       |Bengaluru         |2        |N/A          |
+
+
+### Sourced from [inc42](https://inc42.com/the-indian-crypto-blockchain-tracker/)
+
+## Requirements
+- Python3
+  - pip
+- Packages
+  - virtualenv (installed globally)
+  - BeautifulSoup4
+  - requests
+  - pandas
+  
+## Steps 
+- `python -m venv env` to setup the virtual environment
+- `source env\Scripts\activate` to start the virtual environment
+  - the command might not be same for all
+  - check out [this medium article](https://itnext.io/a-quick-guide-on-how-to-setup-a-python-virtual-environment-windows-linux-mac-bf662c2c77d3) if you are not sure
+- `pip install -r requirements.txt` to install all required packages
+- `python app.py` to run the app 
+  - this creates a new csv file again
+
+### The table in README.md was created using [convertcsv](https://www.convertcsv.com/csv-to-markdown.htm)
